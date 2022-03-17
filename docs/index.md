@@ -20,8 +20,7 @@ is described in the Results section.
 The implementation of the model is straightforward, using the python library 
 [PyCMTensor](https://github.com/mwong009/pycmtensor). `PyCMTensor` is an ongoing 
 developmental Python library software designed for discrete choice modelling with 
-deep learning in mind. Instructions to install this Python library and run the models 
-are included the sections below.
+deep learning in mind.
 
 ## Obtaining behavioural insights
 As with conventional choice modelling estimation software such as Biogeme, we can 
@@ -38,14 +37,6 @@ An example of obtaining statistical propereties is shown in the results section.
 ```{toctree}
 :maxdepth: 3
 
-installing
 results/index
 
 ```
-
-
-# Indices and tables
-
-- {ref}`genindex`
-- {ref}`modindex`
-- {ref}`search`

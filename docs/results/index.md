@@ -2,6 +2,8 @@
 Raw result files and probability outputs are shown in the notebook docmentations. 
 The model estimation log likelihood results are as follows:
 
+## Overview
+
 **SP dataset**
 - Dataset size: 2790
 - Final loglikelihood: -1281.787
@@ -14,8 +16,8 @@ The model estimation log likelihood results are as follows:
 - Dataset size: 4000
 - Final loglikelihood: -3683.697
 
+## Results by dataset
 ```{toctree}
-:caption: Results by dataset
 :maxdepth: 3
 
 pycmtensor_reslogit_SP
