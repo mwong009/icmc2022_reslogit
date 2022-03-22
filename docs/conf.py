@@ -28,7 +28,8 @@ author = 'Melvin Wong'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-	"myst_nb"
+	"myst_nb",
+    'rst2pdf.pdfbuilder',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -52,6 +53,20 @@ source_suffix = {
 }
 
 jupyter_execute_notebooks = "off"
+
+nb_render_priority = {
+  "html": (
+        "application/vnd.jupyter.widget-view+json",
+        "application/javascript",
+        "text/html",
+        "image/svg+xml",
+        "image/png",
+        "image/jpeg",
+        "text/markdown",
+        "text/latex",
+        "text/plain",
+    )
+}
 
 
 # -- Options for HTML output -------------------------------------------------
