@@ -29,7 +29,6 @@ author = 'Melvin Wong'
 # ones.
 extensions = [
 	"myst_nb",
-    'rst2pdf.pdfbuilder',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
