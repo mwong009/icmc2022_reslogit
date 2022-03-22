@@ -79,5 +79,16 @@ html_static_path = ['_static']
 # -- Options for LaTeX output ------------------------------------------
 
 latex_documents = [
- ('index', 'index.tex', u'icmcreslogit', u'Melvin Wong', 'howto'),
+ ('index', 'index.tex', project, author, 'howto', True),
 ]
+latex_show_urls = 'footnote'
+latex_elements = {
+    'papersize': 'a4paper',
+    'pointsize': '10pt',
+    # Additional stuff for the LaTeX preamble.
+    'tableofcontents' : '',
+    # 'preamble': '',
+    # Latex figure (float) alignment
+    #
+    # 'figure_align': 'htbp',
+}
