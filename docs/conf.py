@@ -54,20 +54,6 @@ source_suffix = {
 
 jupyter_execute_notebooks = "off"
 
-nb_render_priority = {
-  "html": (
-        "application/vnd.jupyter.widget-view+json",
-        "application/javascript",
-        "text/html",
-        "image/svg+xml",
-        "image/png",
-        "image/jpeg",
-        "text/markdown",
-        "text/latex",
-        "text/plain",
-    )
-}
-
 
 # -- Options for HTML output -------------------------------------------------
 
