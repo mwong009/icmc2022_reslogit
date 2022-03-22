@@ -82,11 +82,13 @@ latex_documents = [
  ('index', 'index.tex', project, author, 'howto', False),
 ]
 latex_show_urls = 'footnote'
+latex_toplevel_sectioning = 'section'
 latex_elements = {
     'papersize': 'a4paper',
     'pointsize': '10pt',
     # Additional stuff for the LaTeX preamble.
     'tableofcontents' : '',
+    'geometry': r'\usepackage[margin=1in]{geometry}',
     # 'preamble': '',
     # Latex figure (float) alignment
     #

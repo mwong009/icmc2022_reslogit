@@ -1,8 +1,6 @@
-# Results
+## Overview
 Raw result files and probability outputs are shown in the notebook docmentations. 
 The model estimation log likelihood results are as follows:
-
-## Overview
 
 **SP dataset**
 - Dataset size: 2790

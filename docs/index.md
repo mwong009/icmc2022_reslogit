@@ -38,7 +38,7 @@ Examples of obtaining elasticities are shown in the results section.
 
 [^wongResLogit]: Wong, M. and Farooq, B., 2020. A bi-partite generative model framework for analyzing and simulating large scale multiple discrete-continuous travel behaviour data. Transportation Research Part C: Emerging Technologies, 110, pp.247-268.
 
-## Contents
+## Results
 
 ```{toctree}
 :maxdepth: 3
