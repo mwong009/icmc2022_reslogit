@@ -79,7 +79,7 @@ html_static_path = ['_static']
 # -- Options for LaTeX output ------------------------------------------
 
 latex_documents = [
- ('index', 'index.tex', project, author, 'howto', True),
+ ('index', 'index.tex', project, author, 'howto', False),
 ]
 latex_show_urls = 'footnote'
 latex_elements = {
